@@ -45,8 +45,9 @@ function updateUrls() {
     var textNodes = document.evaluate("//text()", document, null,
         XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);
     var searchRE = new RegExp(originalProfileName, 'gi');
+    var node;
     for (i = 0; i < textNodes.snapshotLength; i++) {
-        var node = textNodes.snapshotItem(i);
+        node = textNodes.snapshotItem(i);
         if (node.data.indexOf(originalProfileName) > -1) {
             node.data = node.data.replace(searchRE, newProfileName);
         }
@@ -54,7 +55,7 @@ function updateUrls() {
 
     searchRE = new RegExp(originalProfileId, 'gi');
     for (i = 0; i < textNodes.snapshotLength; i++) {
-        var node = textNodes.snapshotItem(i);
+        node = textNodes.snapshotItem(i);
         if (node.data.indexOf(originalProfileId) > -1) {
             node.data = node.data.replace(searchRE, newProfileName);
         }
