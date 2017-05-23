@@ -2,6 +2,8 @@
 // @name        gitlab-replace-profile-pic
 // @namespace   https://github.com/Gira-X/tampermonkey-replace-gitlab-profile-pics
 // @version     1
+// @author      Dmytro Butemann
+// @description Change a Gitlab user's profile picture and name to anything you like
 // @include     https://gitlab.com/*
 // @include     https://gitlab.com
 // @icon        https://github.com/fluidicon.png
