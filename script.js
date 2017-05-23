@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name        gitlab-replace-profile-pic
 // @namespace   https://github.com/Gira-X/tampermonkey-replace-gitlab-profile-pics
-// @include     about:addons
 // @version     1
 // @include     https://gitlab.com/*
 // @include     https://gitlab.com
-// @grant       none
+// @icon        https://github.com/fluidicon.png
 // @updateURL   https://raw.githubusercontent.com/Gira-X/tampermonkey-replace-gitlab-profile-pics/master/script.js
 // @downloadURL https://raw.githubusercontent.com/Gira-X/tampermonkey-replace-gitlab-profile-pics/master/script.js
+// @grant       none
 // ==/UserScript==
 
 updateEveryMs = 500;
