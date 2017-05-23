@@ -5,8 +5,8 @@
 // @include     https://gitlab.com/*
 // @include     https://gitlab.com
 // @icon        https://github.com/fluidicon.png
-// @updateURL   https://raw.githubusercontent.com/Gira-X/tampermonkey-replace-gitlab-profile-pics/master/script.js
-// @downloadURL https://raw.githubusercontent.com/Gira-X/tampermonkey-replace-gitlab-profile-pics/master/script.js
+// @updateURL   https://raw.githubusercontent.com/Gira-X/tampermonkey-replace-gitlab-profile-pics/master/script.user.js
+// @downloadURL https://raw.githubusercontent.com/Gira-X/tampermonkey-replace-gitlab-profile-pics/master/script.user.js
 // @grant       none
 // ==/UserScript==
 
