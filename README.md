@@ -6,6 +6,15 @@ Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dh
 
 Then you have to adjust the `originalAvatarUrl`, `originalProfileId` and `originalProfileName` variables to your liking.
 
+# Other domains apart from gitlab.com
+
+If you have GitLab hosted on a different domain, you have to adjust those lines in the script:
+
+```javascript
+// @include     https://gitlab.com/*
+// @include     https://gitlab.com
+```
+
 # Screenshot
 
 ![](./screenshots/1.png)
